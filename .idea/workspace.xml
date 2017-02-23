@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9553e6-6faf-4c39-bb43-4df4d59608d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/distribuidos.pyw" afterPath="$PROJECT_DIR$/distribuidos.pyw" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/distribuidos.ui" afterPath="$PROJECT_DIR$/distribuidos.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interfazCB.pyw" afterPath="$PROJECT_DIR$/interfazCB.pyw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proy02.txt" afterPath="$PROJECT_DIR$/proy02.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,45 +22,16 @@
       <file leaf-file-name="interfazCB.pyw" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interfazCB.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="143" column="85" lean-forward="false" selection-start-line="143" selection-start-column="85" selection-end-line="143" selection-end-column="85" />
+            <state relative-caret-position="244">
+              <caret line="120" column="51" lean-forward="false" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
               <folding>
                 <element signature="e#41#67#0" expanded="true" />
-                <element signature="e#2881#3619#0" expanded="false" />
-                <element signature="e#6990#7504#0" expanded="false" />
-                <element signature="e#9039#9140#0" expanded="false" />
-                <element signature="e#9170#9725#0" expanded="false" />
+                <element signature="e#268#495#0" expanded="false" />
+                <element signature="e#527#3769#0" expanded="false" />
+                <element signature="e#2816#3554#0" expanded="false" />
+                <element signature="e#3815#4824#0" expanded="false" />
+                <element signature="e#9310#9411#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pathlib.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/pathlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="650" column="0" lean-forward="false" selection-start-line="650" selection-start-column="0" selection-end-line="650" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connecting.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/win_unc/connecting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unc_directory.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/win_unc/unc_directory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +39,8 @@
       <file leaf-file-name="GInformes.pyw" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AdhGInformes/Codigo Fuente/Codigo (no incluye librerias)/GInformes.pyw">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="478" column="67" lean-forward="false" selection-start-line="478" selection-start-column="67" selection-end-line="478" selection-end-column="91" />
+            <state relative-caret-position="229">
+              <caret line="457" column="50" lean-forward="true" selection-start-line="457" selection-start-column="50" selection-end-line="457" selection-end-column="50" />
               <folding>
                 <element signature="e#2587#2814#0" expanded="false" />
                 <element signature="e#2843#2949#0" expanded="false" />
@@ -385,7 +354,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32344213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32344213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -407,18 +376,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/interfazCB.pyw</url>
-          <line>210</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/interfazCB.pyw</url>
-          <line>170</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/interfazCB.pyw</url>
-          <line>58</line>
-          <option name="timeStamp" value="11" />
+          <line>145</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -431,7 +390,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -442,10 +401,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#2881#3619#0" expanded="false" />
-            <element signature="e#6990#7504#0" expanded="false" />
-            <element signature="e#9039#9140#0" expanded="false" />
-            <element signature="e#9170#9725#0" expanded="false" />
+            <element signature="e#268#495#0" expanded="false" />
+            <element signature="e#527#3769#0" expanded="false" />
+            <element signature="e#2816#3554#0" expanded="false" />
+            <element signature="e#3815#4824#0" expanded="false" />
+            <element signature="e#9310#9411#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,39 +428,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#2881#3619#0" expanded="false" />
-            <element signature="e#6990#7504#0" expanded="false" />
-            <element signature="e#9039#9140#0" expanded="false" />
-            <element signature="e#9170#9725#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="185" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#95#2362#0" expanded="false" />
-            <element signature="e#123#429#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AdhGInformes/Codigo Fuente/Codigo (no incluye librerias)/GInformes.pyw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="478" column="67" lean-forward="false" selection-start-line="478" selection-start-column="67" selection-end-line="478" selection-end-column="91" />
-          <folding>
-            <element signature="e#2587#2814#0" expanded="false" />
-            <element signature="e#2843#2949#0" expanded="false" />
-            <element signature="e#2996#3129#0" expanded="false" />
-            <element signature="e#3158#13856#0" expanded="false" />
-            <element signature="e#13943#14076#0" expanded="false" />
-            <element signature="e#14156#14322#0" expanded="false" />
-            <element signature="e#14366#14523#0" expanded="false" />
-            <element signature="e#14562#14754#0" expanded="false" />
+            <element signature="e#268#495#0" expanded="false" />
+            <element signature="e#527#3769#0" expanded="false" />
+            <element signature="e#2816#3554#0" expanded="false" />
+            <element signature="e#3815#4824#0" expanded="false" />
+            <element signature="e#9310#9411#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,16 +461,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="185" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#95#2362#0" expanded="false" />
+            <element signature="e#123#429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AdhGInformes/Codigo Fuente/Codigo (no incluye librerias)/GInformes.pyw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="457" column="50" lean-forward="true" selection-start-line="457" selection-start-column="50" selection-end-line="457" selection-end-column="50" />
+          <folding>
+            <element signature="e#2587#2814#0" expanded="false" />
+            <element signature="e#2843#2949#0" expanded="false" />
+            <element signature="e#2996#3129#0" expanded="false" />
+            <element signature="e#3158#13856#0" expanded="false" />
+            <element signature="e#13943#14076#0" expanded="false" />
+            <element signature="e#14156#14322#0" expanded="false" />
+            <element signature="e#14366#14523#0" expanded="false" />
+            <element signature="e#14562#14754#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interfazCB.pyw">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="143" column="85" lean-forward="false" selection-start-line="143" selection-start-column="85" selection-end-line="143" selection-end-column="85" />
+        <state relative-caret-position="244">
+          <caret line="120" column="51" lean-forward="false" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
-            <element signature="e#2881#3619#0" expanded="false" />
-            <element signature="e#6990#7504#0" expanded="false" />
-            <element signature="e#9039#9140#0" expanded="false" />
-            <element signature="e#9170#9725#0" expanded="false" />
+            <element signature="e#268#495#0" expanded="false" />
+            <element signature="e#527#3769#0" expanded="false" />
+            <element signature="e#2816#3554#0" expanded="false" />
+            <element signature="e#3815#4824#0" expanded="false" />
+            <element signature="e#9310#9411#0" expanded="false" />
           </folding>
         </state>
       </provider>

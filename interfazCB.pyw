@@ -2,14 +2,10 @@
 # -*- coding: utf8 -*-
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
-import sys ,time
-
+import sys
 import distribuidos, datetime
 from pathlib import Path
-from operator import attrgetter
 from win_unc import UncDirectory, UncDirectoryConnection
-import os
-import winshell
 def validacionArchivo(conexion,nombreArchivo):
     p = Path(conexion.get_path())
     p = p / nombreArchivo
@@ -111,44 +107,26 @@ class MyTableModel(QAbstractTableModel):
         if orientation == Qt.Horizontal and role == Qt.DisplayRole:
             return QVariant(self.headerdata[col])
         return QVariant()
-
-
-
 class vInforme1(QMainWindow):
     def __init__(self, parent=None):
         QWidget.__init__(self, parent)
         self.ui = distribuidos.Ui_MainWindow()
         self.ui.setupUi(self)
+        self.setWindowTitle("Adh-Informes de Despacho")
         self.diccionarioMeses = {"ENERO": '01',"FEBRERO":'02',"MARZO":'03',"ABRIL":'04',"MAYO":'05',
                                  "JUNIO":'06',"JULIO":'07',"AGOSTO":'08',"SEPTIEMBRE":'09',
                                  "OCTUBRE":'10',"NOVIEMBRE":'11',"DICIEMBRE":'12'}
+        pixmap = QPixmap('./2.jpg')
+        self.ui.lblLogo.setPixmap(pixmap.scaled(250,100,Qt.KeepAspectRatio))
+        self.ui.lblLogo2.setPixmap(pixmap.scaled(250,100, Qt.KeepAspectRatio))
         self.cargarCmbMeses()
-        my_array = lineaDistribuidos().archivoALista("proy02.txt")
-        headerData = ["Pedido","Nombre Cliente","Nombre Etiqueta","Cantidad Meses Anteriores","Valorizacion de Meses Anteriores","Cantidad Despachada"," Valorizacion de Despachos"]
-        tablemodel = MyTableModel(my_array, headerData, self)
-        self.ui.tableView.setModel(tablemodel)
-        self.ui.tableView.setColumnWidth(0, 100)
-        self.ui.tableView.setColumnWidth(1, 180)
-        self.ui.tableView.setColumnWidth(2, 180)
-        self.ui.tableView.setColumnWidth(3, 180)
-        self.ui.tableView.setColumnWidth(4, 180)
-        self.ui.tableView.setColumnWidth(5, 180)
-        self.ui.tableView.setColumnWidth(6, 180)
-        self.ui.tableView.setColumnWidth(7, 180)
-        self.ui.tableView.setColumnWidth(8, 180)
-        self.ui.lblCantProd.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 3)).replace(',', '.'))
-        self.ui.lblCantDesp.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 5)).replace(',', '.'))
-        self.ui.lblProdVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 4)).replace(',', '.'))
-        self.ui.lblDespVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 6)).replace(',', '.'))
+        self.estadocero()
         self.ui.lblFechaHoy.setText("{0}/{1}/{2}".format(datetime.date.today().day,datetime.date.today().month,
                                                          datetime.date.today().year))
         QObject.connect(self.ui.cmbMeses, SIGNAL("currentIndexChanged(int)"), self.cmbMeses_click)
-
-
-
-
-
     def cargarCmbMeses(self, ):
+        self.ui.cmbMeses.clear()
+        self.ui.cmbMeses.addItem("--Seleccione el mes que quiere consultar--")
         self.listaReferencias = list()
         referencia = datetime.date.today().month
         self.listaReferencias.append(referencia)
@@ -165,12 +143,36 @@ class vInforme1(QMainWindow):
     def cmbMeses_click(self):
         indice = -1
         mes = self.ui.cmbMeses.currentText()
-        for k, v in self.diccionarioMeses.items():
-            if k == mes:
-                indice = v
-        my_array = lineaDistribuidos().archivoALista("proy"+indice+".txt")
-        headerData = ["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad Meses Anteriores",
-                      "Valorizacion de Meses Anteriores", "Cantidad Despachada", " Valorizacion de Despachos"]
+        if str(mes).find("--S") == -1:
+            for k, v in self.diccionarioMeses.items():
+                if k == mes:
+                    indice = v
+            my_array = lineaDistribuidos().archivoALista("proy"+indice+".txt")
+            headerData = ["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad de Productos",
+                          "Valorizacion de Productos", "Cantidad Despachada", " Valorizacion de Despachos"]
+            tablemodel = MyTableModel(my_array, headerData, self)
+            self.ui.tableView.setModel(tablemodel)
+            self.ui.tableView.setColumnWidth(0, 100)
+            self.ui.tableView.setColumnWidth(1, 180)
+            self.ui.tableView.setColumnWidth(2, 180)
+            self.ui.tableView.setColumnWidth(3, 180)
+            self.ui.tableView.setColumnWidth(4, 180)
+            self.ui.tableView.setColumnWidth(5, 180)
+            self.ui.tableView.setColumnWidth(6, 180)
+            self.ui.tableView.setColumnWidth(7, 180)
+            self.ui.tableView.setColumnWidth(8, 180)
+            self.ui.lblCantProd.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 3)).replace(',', '.'))
+            self.ui.lblCantDesp.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 5)).replace(',', '.'))
+            self.ui.lblProdVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 4)).replace(',', '.'))
+            self.ui.lblDespVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 6)).replace(',', '.'))
+            self.ui.tableView.showRow(0)
+        else:
+            self.estadocero()
+
+    def estadocero(self):
+        my_array = [["", "", "", "", "", "", ""]]
+        headerData =["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad de Productos",
+                          "Valorizacion de Productos", "Cantidad Despachada", " Valorizacion de Despachos"]
         tablemodel = MyTableModel(my_array, headerData, self)
         self.ui.tableView.setModel(tablemodel)
         self.ui.tableView.setColumnWidth(0, 100)
@@ -182,29 +184,18 @@ class vInforme1(QMainWindow):
         self.ui.tableView.setColumnWidth(6, 180)
         self.ui.tableView.setColumnWidth(7, 180)
         self.ui.tableView.setColumnWidth(8, 180)
-        self.ui.lblCantProd.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 3)).replace(',', '.'))
-        self.ui.lblCantDesp.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 5)).replace(',', '.'))
-        self.ui.lblProdVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 4)).replace(',', '.'))
-        self.ui.lblDespVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 6)).replace(',', '.'))
-
-
+        self.ui.tableView.hideRow(0)
+        self.ui.lblCantProd.setText('0')
+        self.ui.lblCantDesp.setText('0')
+        self.ui.lblProdVal.setText('$0')
+        self.ui.lblDespVal.setText('$0')
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWindow = vInforme1()
     myWindow.show()
     sys.exit(app.exec_())
 
-def tiempoModArchivo():
-    ficheros = os.listdir(r'Archivos')
-    print "last modified: %s" % time.ctime(os.path.getmtime('Archivos/' + ficheros[0]))
-    print "created: %s" % time.ctime(os.path.getctime('Archivos/' + ficheros[0]))
-    tiempo = time.localtime(os.path.getmtime('Archivos/' + ficheros[0]))
-    print tiempo
-    print ficheros
-    fechaUltimaModificacion = "{0}/{1}/{2}".format(tiempo.tm_mday, tiempo.tm_mon, tiempo.tm_year)
-    horaUltimaModificacion = "{0}:{1}".format(tiempo.tm_hour, tiempo.tm_min)
-    print fechaUltimaModificacion
-    print horaUltimaModificacion
+
 
 
 
