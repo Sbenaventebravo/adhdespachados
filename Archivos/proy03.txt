@@ -1,0 +1,71 @@
+
+121021 CRISTALERIAS DE CHIL FTE PISCO 3R 40G              85.000    671.500          0          0          0          0
+121022 CRISTALERIAS DE CHIL REV PISCO 3R 40              115.000  1.138.500          0          0          0          0
+121232 CRISTALERIAS DE CHIL REV MOJITO ICE GINGER SM      45.800    261.060          0          0          0          0
+121430 CRISTALERIAS DE CHIL FTE LA SERENA SUR 1 LT        25.000  1.150.000          0          0          0          0
+121437 CRISTALERIAS DE CHIL REV RON SIERRA MORENA DOR     15.000     89.100          0          0          0          0
+121472 CRISTALERIAS DE CHIL FTE MOJITO ICE GINGER SM      45.000    629.550          0          0          0          0
+121746 COOP. AGRIC. PISQUER FTE ARTESANOS 35G 1.500cc     14.000    373.800          0          0          0          0
+121750 COOP. AGRIC. PISQUER REV ARTESANOS 35G 1.500cc     28.000    170.800          0          0          0          0
+122419 VINA FRANCISCO DE AG FTE RON MAD DORADO 750        74.700  1.157.850          0          0          0          0
+122420 VINA FRANCISCO DE AG FTE RON MAD DORADO 1000 m     30.000    615.000          0          0          0          0
+122446 CIA. PISQUERA DE CHI FTE MISTRAL 35GL 1000CC P    120.000  2.070.000          0          0          0          0
+122544 CIA. PISQUERA DE CHI COLLARIN AA MISTRAL NOBEL     55.000    935.000          0          0          0          0
+122546 CIA. PISQUERA DE CHI REV MISTRAL NOBEL 40G 750     42.000  1.066.800          0          0          0          0
+122549 CIA. PISQUERA DE CHI REV MISTRAL 40GL 750CC SE     64.000    230.400          0          0          0          0
+122675 PACIFICO S.A.        ETIQ LICOR DE MANZANILLA      34.000    408.340          0          0          0          0
+122679 PACIFICO S.A.        REV GRANADINA 645             26.000    153.400          0          0          0          0
+122682 PACIFICO S.A.        ETQ RON DORADO 645CC          32.000    384.320          0          0          0          0
+122683 PACIFICO S.A.        FTE GRANADINA 645             19.400    224.070          0          0          0          0
+122798 WATTS  S.A.          ET MERM REGIMEL MORA          12.500    223.750          0          0          0          0
+122799 WATTS  S.A.          ET MERM WATTS PREMIUM MAN      9.000    260.100          0          0          0          0
+122801 WATTS  S.A.          ET MERM WATTS PREMIUM FRA     10.000    289.000          0          0          0          0
+122802 WATTS  S.A.          ET MERM WATTS DURAZNO 320     14.000    404.600          0          0          0          0
+122803 WATTS  S.A.          ET MERM REGIMEL DAMASCO       17.500    313.250          0          0          0          0
+122804 WATTS  S.A.          ET MERM WATTS FRUTILLA 32     12.500    361.250          0          0          0          0
+122821 COOP. AGRIC. PISQUER FTE ARTESANOS PISCO 350CC    136.000  1.890.400          0          0          0          0
+122889 PRODUCTOS FERNANDEZ  CINTO PATE SABOR JAMON PF    117.000    657.540          0          0          0          0
+122890 PRODUCTOS FERNANDEZ  CINTO PASTA SALAME PF 125    240.000  1.348.800          0          0          0          0
+122891 PRODUCTOS FERNANDEZ  CINTO PASTA SABOR JAMON S     63.000    354.060          0          0          0          0
+122892 PRODUCTOS FERNANDEZ  CINTO PATE DE CAMPO PF 12    201.000  1.129.620          0          0          0          0
+122893 PRODUCTOS FERNANDEZ  CINTO PATE SABOR TERNERA      60.000    337.200          0          0          0          0
+122944 EMPRESAS DEMARIA S.A ETIQ ABRILLANTADOR PFLOT      20.000    599.400          0          0          0          0
+122945 EMPRESAS DEMARIA S.A FTE PISOS FLOTANTE BERRIE      6.000     96.480          0          0          0          0
+122950 CIA. PISQUERA DE CHI REV RON SM MOJITO ICE 275    144.000    761.760          0          0          0          0
+122957 CIA. PISQUERA DE CHI REV MISTRAL NOBEL 46GL        14.000    525.000          0          0          0          0
+123013 COOP. AGRIC. PISQUER FTE ADC DDESTI 40 750CC N     30.000    387.000          0          0          0          0
+123015 COOP. AGRIC. PISQUER REV ADC DDESTIL 40 750CC      20.000     64.000          0          0          0          0
+123016 CIA. PISQUERA DE CHI CONTRAETIQUETA AA 3R NAVI     10.000    149.000          0          0          0          0
+123045 EMPRESAS DEMARIA S.A MANZANA VERDE 900ML LONGL     25.200    523.908          0          0          0          0
+123051 EMPRESAS DEMARIA S.A LIM LONGLASTING LAVANDA 9     19.800    411.642          0          0          0          0
+123078 EMPRESAS DEMARIA S.A REV LMUEBLES LAVANDA 500M      9.000    135.000          0          0          0          0
+123080 CIA. PISQUERA DE CHI COLLARIN AA MISTRAL ICE 7    216.000    490.320          0          0          0          0
+123110 PRODUCTOS FERNANDEZ  ET PANCETA AHUMADA PF 116      6.000    120.300          0          0          0          0
+123113 CIA. PISQUERA DE CHI COLLARIN MISTRAL ICE HOT     108.000    529.200          0          0          0          0
+123129 EMPRESAS DEMARIA S.A REV LMUEBLES TRADICIONAL      75.000  1.125.000          0          0          0          0
+123137 EMPRESAS DEMARIA S.A REV LMUEBLES LAVANDA 500M     39.000    585.000          0          0          0          0
+123138 EMPRESAS DEMARIA S.A FTE BETUN LIQ NEGRO 60ML      60.000    319.200          0          0          0          0
+123139 EMPRESAS DEMARIA S.A REV BETUN LIQ NEGRO 60ML     100.000    382.000          0          0          0          0
+123140 EMPRESAS DEMARIA S.A FTE BETUN LIQ CAFE 60ML       50.000    266.000          0          0          0          0
+123141 EMPRESAS DEMARIA S.A REV BETUN LIQ CAFE 60ML D     35.000    133.700          0          0          0          0
+123142 EMPRESAS DEMARIA S.A FTE BETUN LIQ RENOVADOR 6     25.000    133.000          0          0          0          0
+123148 EMPRESAS DEMARIA S.A C/ETIQ. P CERA AUTOB INCO    120.000  1.929.600          0          0          0          0
+123150 SOUTHERN BREWING COM FTE PILSNER 330               50.000    302.500          0          0          0          0
+123153 EMPRESAS DEMARIA S.A FTE LIMPIAVIDRIOS 250ML       30.000    262.800          0          0          0          0
+123156 EMPRESAS DEMARIA S.A C/ETIQ LIMPIAVIDRIOS MULT     24.000    313.200          0          0          0          0
+123157 EMPRESAS DEMARIA S.A ETIQ LIMPIAVIDRIOS MULTIU     12.000    156.600          0          0          0          0
+123160 SOUTHERN BREWING COM COLLARIN STOUT 330            60.000    297.000          0          0          0          0
+123163 SOUTHERN BREWING COM FTE STOUT 330                 35.000    211.750          0          0          0          0
+123164 SOUTHERN BREWING COM FTE GOLDEN 330               150.000    907.500          0          0          0          0
+123182 EMBOTELLADORA METROP ET FRUGO DAMASCO 2.0 LTS      38.000    342.000          0          0          0          0
+123184 EMBOTELLADORA METROP ET FRUGO NARANJA LIGHT 2.     36.000    324.000          0          0          0          0
+123195 CIA. PISQUERA DE CHI FTE MISTRAL 35GL 750CC SE     40.000    380.000          0          0          0          0
+123196 CIA. PISQUERA DE CHI REV MISTRAL 35GL 750         496.000  1.041.600          0          0          0          0
+123206 CRISTALERIAS DE CHIL FTE RON SIERRA MORENA DOR     10.750    179.955          0          0          0          0
+123219 COOP. AGRIC. PISQUER REV SENSUS MOSCATEL DOLCE     21.230    239.899          0          0          0          0
+123221 COOP. AGRIC. PISQUER FTE SENSUS MOSCATEL 750CC     30.000    795.000          0          0          0          0
+123275 EMPRESAS DEMARIA S.A FTE BETUN LIQ NEUTRO 60ML     15.000     79.800          0          0          0          0
+123276 EMPRESAS DEMARIA S.A C/ETIQ BETUN LIQ NEUTRO 6     15.000     57.300          0          0          0          0
+123306 CIA. PISQUERA DE CHI CUELLO MISTRAL ICE DRY 27     45.000    102.150          0          0          0          0
+123307 CIA. PISQUERA DE CHI FTE MISTRAL ICE DRY 275CC     54.000    303.480          0          0          0          0
+123308 PRODUCTOS FERNANDEZ  SALAME ITALIANO LIDER 13X      6.000     69.000          0          0          0          0P

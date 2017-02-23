@@ -1,0 +1,214 @@
+
+121021  CRISTALERIAS DE CHIL    FTE PISCO 3R 40G           85.000      671.500            0            0            0            0
+121022  CRISTALERIAS DE CHIL    REV PISCO 3R 40           115.000    1.138.500            0            0            0            0
+121023  CRISTALERIAS DE CHIL    REV PISCO 3R 35G           95.000      940.500            0            0            0            0
+121231  CRISTALERIAS DE CHIL    GOLLETE MOJITO ICE G       54.000      340.200            0            0            0            0
+121232  CRISTALERIAS DE CHIL    REV MOJITO ICE GINGE       45.800      261.060            0            0            0            0
+121430  CRISTALERIAS DE CHIL    FTE LA SERENA SUR 1        25.000    1.150.000            0            0            0            0
+121437  CRISTALERIAS DE CHIL    REV RON SIERRA MOREN       40.000      237.600            0            0            0            0
+121472  CRISTALERIAS DE CHIL    FTE MOJITO ICE GINGE       45.000      629.550            0            0            0            0
+121568  CRISTALERIAS DE CHIL    REV.120 TRES MEDALLA       80.000      624.000            0            0            0            0
+121583  COOP. AGRIC. PISQUER    FTE CAPEL SOUR 1000M       24.000      741.600            0            0            0            0
+121620  CIA. PISQUERA DE CHI    FTE MISTRAL ICE HOT         4.100       40.590            0            0        4.100       40.590
+121627  CIA. PISQUERA DE CHI    FTE SIERRA MORENA 19       10.000       96.700            0            0       10.000       96.700
+121637  CIA. PISQUERA DE CHI    REV MISTRAL ICE HOT        68.300      266.370            0            0       68.300      266.370
+121727  CIA. PISQUERA DE CHI    ETIQ PP AA MISTRAL 3       24.000      357.600            0            0            0            0
+121746  COOP. AGRIC. PISQUER    FTE ARTESANOS 35G 1.       14.000      373.800            0            0            0            0
+121750  COOP. AGRIC. PISQUER    REV ARTESANOS 35G 1.       28.000      170.800            0            0            0            0
+121792  COOP. AGRIC. PISQUER    COLLARIN SENSUS KIR        23.000      535.900            0            0       23.000      535.900
+121813  WATTS  S.A.             POTE CALO 1 KILO            2.500       18.625            0            0        2.500       18.625
+121854  PACIFICO S.A.           RON CARIBE BLANCO 29       54.000      339.660            0            0            0            0
+121907  CIA. PISQUERA DE CHI    FTE MISTRAL 46 GL SE       56.000      532.000            0            0            0            0
+121909  CIA. PISQUERA DE CHI    REV MISTRAL 46GL 750       24.000       86.400            0            0            0            0
+121949  EMPRESAS DEMARIA S.A    C/ETIQ LIMPIAVIDRIOS       12.000      156.600            0            0       12.000      156.600
+121950  EMPRESAS DEMARIA S.A    ETIQ LIMPIAVIDRIOS M        9.000      117.450            0            0       11.400      148.770
+121969  EMPRESAS DEMARIA S.A    FTE BETUN LIQ NEUTRO       10.000       53.200            0            0        5.000       26.600
+121986  CIA. PISQUERA DE CHI    REV MISTRAL 40GL 750       48.000      172.800            0            0            0            0
+122008  CIA. PISQUERA DE CHI    FTE MISTRAL 40GL 750       16.000      152.000            0            0            0            0
+122011  EMPRESAS DEMARIA S.A    FTE BETUN LIQ RENOVA       30.000      159.600            0            0       30.000      159.600
+122093  WATTS  S.A.             FTE POTE PAMPERITA L        8.000       74.640            0            0        8.000       74.640
+122157  CIA. PISQUERA DE CHI    COLLARIN AA MISTRAL        20.000      340.000            0            0       20.000      340.000
+122158  CIA. PISQUERA DE CHI    FTE MISTRAL NOBEL 40       14.000      688.800            0            0       14.000      688.800
+122161  CIA. PISQUERA DE CHI    FTE MISTRAL 46 GL SE       80.000      760.000            0            0            0            0
+122162  CIA. PISQUERA DE CHI    REV MISTRAL 46GL 750       32.000      115.200            0            0            0            0
+122164  CIA. PISQUERA DE CHI    FTE MISTRAL 35GL 100       40.000      690.000            0            0       40.000      690.000
+122165  CIA. PISQUERA DE CHI    REV MISTRAL 35GL 100        5.000       18.000            0            0       15.630       56.268
+122186  CIA. PISQUERA DE CHI    ET AA SERENA 33GL 70       36.100      285.190            0            0            0            0
+122308  CIA. PISQUERA DE CHI    FTE SM 5 ANOS 750CC        17.000      549.100            0            0            0            0
+122323  TRANSPORTES PUELCHE     GENERICO INCHALAM AM       67.000      917.900            0            0       60.000      822.000
+122333  CRISTALERIAS DE CHIL    REV RON CABO VIEJO 7        5.000       28.000            0            0            0            0
+122401  SOUTHERN BREWING COM    FTE GOLDEN 330            119.200      721.160            0            0            0            0
+122416  COOP. AGRIC. PISQUER    REV ARTESANOS PISCO        84.000      252.000            0            0            0            0
+122420  VINA FRANCISCO DE AG    FTE RON MAD DORADO 1       50.000    1.025.000            0            0            0            0
+122421  WATTS  S.A.             ET MERM REGIMEL MORA       22.500      402.750            0            0            0            0
+122446  CIA. PISQUERA DE CHI    FTE MISTRAL 35GL 100      350.000    6.037.500            0            0      240.000    4.140.000
+122447  CIA. PISQUERA DE CHI    REV MISTRAL 35GL 750      368.000    1.324.800            0            0       80.000      288.000
+122448  CIA. PISQUERA DE CHI    FTE MISTRAL 35GL 750      280.000    2.660.000            0            0       64.000      608.000
+122458  PACIFICO S.A.           ET GIN BRUMMELS 700C        8.000      231.200            0            0            0            0
+122508  COOP. AGRIC. PISQUER    FTE SENSUS MOSCATEL         1.670       44.255            0            0            0            0
+122525  CRISTALERIAS DE CHIL    FTE PISCO TRES ERRES       90.000    1.341.000            0            0            0            0
+122544  CIA. PISQUERA DE CHI    COLLARIN AA MISTRAL        50.000      850.000            0            0            0            0
+122545  CIA. PISQUERA DE CHI    FTE MISTRAL NOBEL 40       42.000    2.066.400            0            0       14.000      688.800
+122546  CIA. PISQUERA DE CHI    REV MISTRAL NOBEL 40       28.000      711.200            0            0       28.000      711.200
+122547  CIA. PISQUERA DE CHI    ET AA SERENA 35GL 70      120.000      900.000            0            0            0            0
+122548  CIA. PISQUERA DE CHI    FTE MISTRAL 40GL 750       64.000      608.000            0            0            0            0
+122549  CIA. PISQUERA DE CHI    REV MISTRAL 40GL 750       64.000      230.400            0            0            0            0
+122565  VITAL AGUAS S.A.        AGUA VITAL 330CC CON      410.000    2.214.000            0            0            0            0
+122566  VITAL AGUAS S.A.        ETIQ VITAL SIN GAS 3      415.000    2.241.000            0            0            0            0
+122567  VINA FRANCISCO DE AG    REV LATE HARVEST GEN       36.000      828.000            0            0            0            0
+122575  COOP. AGRIC. PISQUER    REV ADC DDESTIL 40 7       70.000      364.000            0            0            0            0
+122582  CRISTALERIAS DE CHIL    JUGO WATTS 1 LT NARA       40.000      784.000            0            0            0            0
+122585  EMPRESAS DEMARIA S.A    FTE LIMPIAVIDRIOS 25        5.000       43.800            0            0        9.100       79.716
+122586  EMPRESAS DEMARIA S.A    REV LVIDRIOS 250ML          5.000       43.800            0            0       10.000       87.600
+122588  EMPRESAS DEMARIA S.A    BETUN CREMA 80G NEGR       10.000      140.700            0            0            0            0
+122598  COOP. AGRIC. PISQUER    FTE SENSUS MOSCATEL         1.000       19.800            0            0            0            0
+122605  EMPRESAS DEMARIA S.A    BETUN CREMA 80 CAFE         8.000      112.560            0            0            0            0
+122608  COOP. AGRIC. PISQUER    REV SENSUS BRUT 750C       30.000      315.000            0            0            0            0
+122629  FABRICA DE ENVASES F    FTE MIX (305016)           16.000       59.040            0            0       16.000       59.040
+122656  COEMBAL CHILE S.A.      TAPA MARGARINA NEXT         4.000       37.400            0            0            0            0
+122675  PACIFICO S.A.           ETIQ LICOR DE MANZAN       34.000      408.340            0            0            0            0
+122676  PACIFICO S.A.           ETIQ MANZANILLA 296C       74.000      465.460            0            0            0            0
+122679  PACIFICO S.A.           REV GRANADINA 645               0            0       20.000      118.000            0            0
+122681  PACIFICO S.A.           ETIQ WHISKY 296CC          38.000      239.020            0            0            0            0
+122682  PACIFICO S.A.           ETQ RON DORADO 645CC       66.000      792.660            0            0            0            0
+122683  PACIFICO S.A.           FTE GRANADINA 645               0            0       20.000      231.000            0            0
+122684  PACIFICO S.A.           ETIQ RON DORADO 296C      152.000      956.080            0            0            0            0
+122685  PACIFICO S.A.           ETIQ MENTA 296CC           38.000      239.020            0            0            0            0
+122739  CRISTALERIAS DE CHIL    JUGO WATTS 350 NARAN      140.000    2.590.000            0            0            0            0
+122740  CRISTALERIAS DE CHIL    FTE INFERIOR ERISTOF      195.000      955.500            0            0            0            0
+122742  CRISTALERIAS DE CHIL    JUGO WATTS 1 LT PINA      125.000    2.450.000            0            0            0            0
+122744  CRISTALERIAS DE CHIL    JUGO WATTS 1 LTS MAN       25.000      490.000            0            0            0            0
+122746  CRISTALERIAS DE CHIL    REV ERISTOFF 700cc        130.000      806.000            0            0            0            0
+122747  CRISTALERIAS DE CHIL    FTE SUPERIOR ERISTOF      135.000    1.134.000            0            0            0            0
+122748  CARNES NUBLE S.A.       YUPO PAMPA VERDE          295.000    3.805.500            0            0      295.000    3.805.500
+122749  CRISTALERIAS DE CHIL    FTE RON SIERRA MOREN       70.000      793.800            0            0            0            0
+122762  EMPRESAS DEMARIA S.A    FTE SHAMPOO TEAM 250        5.000       91.850            0            0            0            0
+122763  EMPRESAS DEMARIA S.A    FTE BETUN LIQ NEGRO        80.000      425.600            0            0       80.000      425.600
+122764  EMPRESAS DEMARIA S.A    FTE BETUN LIQ CAFE 6       15.000       79.800            0            0            0            0
+122765  EMPRESAS DEMARIA S.A    REV BETUN LIQ LIDER        39.000      345.540            0            0            0            0
+122766  EMPRESAS DEMARIA S.A    FTE BETUN LIQ LIDER        39.000      345.540            0            0            0            0
+122767  EMPRESAS DEMARIA S.A    REV SHAMPOO TEAM 250       10.000      159.400            0            0            0            0
+122769  EMPRESAS DEMARIA S.A    FTE LMUEBLES NARANJA        3.000       45.660            0            0        3.000       45.660
+122770  EMPRESAS DEMARIA S.A    REV LMUEBLES NARANJA       10.000      152.200            0            0       10.000      152.200
+122773  EMPRESAS DEMARIA S.A    FTE CERA AUTOB ROJA        16.980      273.038            0            0       16.980      273.038
+122774  EMPRESAS DEMARIA S.A    REV CERA AUTOBRILLO        19.200      308.736            0            0       19.200      308.736
+122775  EMPRESAS DEMARIA S.A    ETIQ P CERA AUTOB IN       54.000      868.320            0            0       60.000      964.800
+122776  EMPRESAS DEMARIA S.A    LIM LONGLASTING FRUT       14.400      299.376            0            0            0            0
+122779  EMPRESAS DEMARIA S.A    C/ETIQ. P CERA AUTOB        6.000       96.480            0            0        6.000       96.480
+122780  EMPRESAS DEMARIA S.A    REV BETUN LIQ NEGRO        85.000      324.700            0            0       80.000      305.600
+122781  EMPRESAS DEMARIA S.A    REV BETUN LIQ CAFE 6       20.000       76.400            0            0            0            0
+122782  EMPRESAS DEMARIA S.A    C/ETIQ RENOVADOR LIQ       20.000       76.400            0            0       20.000       76.400
+122788  CRISTALERIAS DE CHIL    FTE RON SIERRA MOREN       60.000    1.082.400            0            0            0            0
+122789  CRISTALERIAS DE CHIL    REV RON SIERRA MOREN       55.000      326.700            0            0            0            0
+122798  WATTS  S.A.             ET MERM REGIMEL MORA       12.500      223.750            0            0            0            0
+122799  WATTS  S.A.             ET MERM WATTS PREMIU        6.000      173.400            0            0            0            0
+122801  WATTS  S.A.             ET MERM WATTS PREMIU       10.000      289.000            0            0            0            0
+122802  WATTS  S.A.             ET MERM WATTS DURAZN       10.000      289.000            0            0            0            0
+122803  WATTS  S.A.             ET MERM REGIMEL DAMA       10.000      179.000            0            0            0            0
+122804  WATTS  S.A.             ET MERM WATTS FRUTIL       12.500      361.250            0            0            0            0
+122805  WATTS  S.A.             ET MERM WATTS MORA 3       12.500      361.250            0            0            0            0
+122816  COOP. AGRIC. PISQUER    REV ARTESANOS PISCO       142.000      468.600            0            0            0            0
+122818  VINA FRANCISCO DE AG    C/ET RON MAD DORADO             0            0       40.000      164.000       40.000      164.000
+122819  COOP. AGRIC. PISQUER    FTE ARTESANOS PISCO        14.000      208.600            0            0            0            0
+122820  COOP. AGRIC. PISQUER    FTE ADC 35 750CC NUE      350.000    4.865.000            0            0            0            0
+122821  COOP. AGRIC. PISQUER    FTE ARTESANOS PISCO       136.000    1.890.400            0            0            0            0
+122846  CIA. PISQUERA DE CHI    C-ET AA MISTRAL ICE        90.000      238.500            0            0            0            0
+122850  CIA. PISQUERA DE CHI    REV MISTRAL ICE DRY             0            0       40.000      106.000            0            0
+122852  CIA. PISQUERA DE CHI    FTE MISTRAL ICE DRY        54.000      303.480            0            0            0            0
+122853  MODINGER HNOS. S.A.     ETI CARNE VACUNO                0            0       41.750      876.750       41.750      876.750
+122862  EMPRESAS DEMARIA S.A    FTE LMUEBLES VANILLA        2.750       17.875            0            0        2.750       17.875
+122863  EMPRESAS DEMARIA S.A    FTE LMUEBLES LAVANDA        5.000       32.500            0            0        5.000       32.500
+122864  EMPRESAS DEMARIA S.A    REV LMUEBLES LAVANDA        3.000       45.000            0            0       24.000      360.000
+122865  EMPRESAS DEMARIA S.A    REV LMUEBLES TRADICI        9.000      135.000            0            0       15.000      225.000
+122867  EMPRESAS DEMARIA S.A    REV LMUEBLES TRADICI       55.000      357.500            0            0       59.000      383.500
+122868  EMPRESAS DEMARIA S.A    REV LMUEBLES VAINILL       10.000       65.000            0            0        5.000       32.500
+122869  EMPRESAS DEMARIA S.A    FTE LMUEBLES TRADICI       64.300      417.950            0            0       64.300      417.950
+122870  EMPRESAS DEMARIA S.A    FTE LMUEBLES TRADICI       12.000      180.000            0            0       12.000      180.000
+122873  DIDEVAL LIMITADA        ACIDO MURIATICO 1 LT      100.000    1.410.000            0            0            0            0
+122878  DIDEVAL LIMITADA        VIRUTILLA LIQUIDA 1             0            0       21.000      329.700       21.000      329.700
+122879  DIDEVAL LIMITADA        BENCINA BLANCA 500 C            0            0       19.000      298.300       19.000      298.300
+122881  DIDEVAL LIMITADA        ACIDO MURIATICO 500             0            0       20.000      314.000       20.000      314.000
+122884  COOP. AGRIC. PISQUER    FTE SENSUS BRUT 750C            0            0       25.000      775.000       30.000      930.000
+122885  COOP. AGRIC. PISQUER    FTE SENSUS BRUT ROSE            0            0        5.000      297.000        5.000      297.000
+122887  QUILLAYES PETEROA LT    CASATTA RICOTTA 1 KI       23.000      172.500            0            0       23.000      172.500
+122888  PRODUCTOS FERNANDEZ     ET PANCETA AHUMADA P            0            0        9.000      180.450        9.000      180.450
+122899  COPAPEL LTDA.           ETIQ.17x6,5/CHILE 10            0            0       16.000      309.280       16.000      309.280
+122915  COMERCIAL DAVIS S.A.    REV BROOKS SILVERTEC       78.000      982.800            0            0       78.000      982.800
+122916  COMERCIAL DAVIS S.A.    FTE BROOKS SILVERTEC       78.000    1.154.400            0            0       78.000    1.154.400
+122917  COMERCIAL DAVIS S.A.    FTE BROOKS 42K 220G             0            0      118.000    1.746.400      118.000    1.746.400
+122918  COMERCIAL DAVIS S.A.    REV BROOKS COBRE 42K            0            0      118.000    1.486.800      118.000    1.486.800
+122921  COMERCIAL DAVIS S.A.    FTE BROOKS SAP-PIES        10.000      247.000            0            0       10.000      247.000
+122922  COMERCIAL DAVIS S.A.    REV BROOKS ZAP-PIES             0            0       10.000      193.000       10.000      193.000
+122933  QUILLAYES PETEROA LT    ET BRIE 140GRS                  0            0       54.000      507.600       54.000      507.600
+122936  COPAPEL LTDA.           FECHA DE VENCIMIENTO            0            0      850.000      164.050          850      164.050
+122937  COMERCIAL DAVIS S.A.    FTE BROOKS COBRE 42K            0            0       28.000      417.200       28.000      417.200
+122938  COMERCIAL DAVIS S.A.    REV BROOKS COBRE 42K            0            0       28.000      333.200       28.000      333.200
+122941  EMPRESAS DEMARIA S.A    BETUN CREMA 80G NEGR            0            0       28.000      393.960            0            0
+122942  EMPRESAS DEMARIA S.A    ETIQ CERA LIQ AMARIL            0            0       21.600      535.248            0            0
+122945  EMPRESAS DEMARIA S.A    FTE PISOS FLOTANTE B            0            0        9.000      144.720            0            0
+122949  CIA. PISQUERA DE CHI    FTE RON SM MOJITO IC       90.000      962.100            0            0            0            0
+122950  CIA. PISQUERA DE CHI    REV RON SM MOJITO IC      144.000      761.760            0            0            0            0
+122952  CIA. PISQUERA DE CHI    GOLLETE RON SM MOJIT            0            0       90.000      291.600            0            0
+122957  CIA. PISQUERA DE CHI    REV MISTRAL NOBEL 46       28.000    1.050.000            0            0       14.000      525.000
+122958  CIA. PISQUERA DE CHI    FTE MISTRAL NOBEL 46       28.000    1.836.800            0            0       14.000      918.400
+122961  COOP. AGRIC. PISQUER    STICKER S/IMPRESION             0            0       40.000      312.000       40.000      312.000
+122964  CECINAS CHILLAN LTDA    ETIQ. GENERICA GRAND            0            0      100.000    1.250.000      100.000    1.250.000
+122967  CECINAS CHILLAN LTDA    ET GENERICA CHICA YU            0            0      181.000    1.719.500      181.000    1.719.500
+122980  CIA. PISQUERA DE CHI    REV MISTRAL 35GL LIT            0            0      320.000      672.000      320.000      672.000
+122981  COPAPEL LTDA.           GALLETA DE AVENA                0            0       21.000       67.620       21.000       67.620
+122982  COPAPEL LTDA.           MERENGUITO                      0            0       21.000       67.620       21.000       67.620
+122983  COPAPEL LTDA.           PESO NETO APROX 240G            0            0       20.000       44.200       20.000       44.200
+122984  COPAPEL LTDA.           BRAZO DE REINA                  0            0       20.000      100.000       20.000      100.000
+122985  COPAPEL LTDA.           QUEQUE DE ZANAHORIA             0            0       17.530       47.856       17.530       47.856
+122991  CRISTALERIAS DE CHIL    COLLARIN CERV GUAYAC        5.000       56.000            0            0            0            0
+122992  CRISTALERIAS DE CHIL    COLLARIN CERV GUAYAC       20.000      224.000            0            0            0            0
+122994  CRISTALERIAS DE CHIL    FTE CERV GUAYACAN IN       20.000      218.000            0            0            0            0
+122997  CRISTALERIAS DE CHIL    FTE CERV GUAYACAN GO       25.000      272.500            0            0            0            0
+122998  CRISTALERIAS DE CHIL    COLLARIN GUAYACAN PA       35.000      392.000            0            0            0            0
+122999  CRISTALERIAS DE CHIL    FTE CERV GUAYACAN PA       25.000      272.500            0            0            0            0
+123013  COOP. AGRIC. PISQUER    FTE ADC DDESTI 40 75       40.000      556.000            0            0            0            0
+123014  COOP. AGRIC. PISQUER    REV ADC 35 750CC NVA            0            0      180.000      936.000            0            0
+123015  COOP. AGRIC. PISQUER    REV ADC DDESTIL 40 7            0            0       30.000      156.000            0            0
+123016  CIA. PISQUERA DE CHI    CONTRAETIQUETA AA 3R            0            0       10.000      149.000       10.000      149.000
+123019  ECOTEC  S.A.            ET LIMPIAPISOS PRIMA            0            0       18.000      250.200       18.000      250.200
+123020  ECOTEC  S.A.            ET LIMPIAPISOS LAVAN            0            0       16.000      222.400       16.000      222.400
+123021  ECOTEC  S.A.            ET LAVALOZAS VALOR 5            0            0       29.130      576.774       29.130      576.774
+123024  ECOTEC  S.A.            ET DETERGENTE LIQ VA            0            0       31.400      942.000       31.400      942.000
+123025  WATTS  S.A.             PACK MANZANA 3X200 M            0            0      270.000      513.000      270.000      513.000
+123026  WATTS  S.A.             ET PACK CREMA CALO L            0            0      270.000      513.000      270.000      513.000
+123027  WATTS  S.A.             PACK NARANJA 3X200 M            0            0      270.000      513.000      270.000      513.000
+123038  WATTS  S.A.             ET PACK PINA 3X200ML            0            0      320.000      608.000      320.000      608.000
+123039  WATTS  S.A.             ET PACK LECHE VAINIL            0            0      160.000      304.000      160.000      304.000
+123041  TECNOLOGIA Y ALIMENT    POLYART JAMON PIERNA            0            0       10.000      701.000       10.000      701.000
+123043  COPAPEL LTDA.           QUESO GAUDA + TABLA             0            0       36.000      328.320       36.000      328.320
+123044  COPAPEL LTDA.           FECHA ELAB/VENC.                0            0      640.000      186.240          640      186.240
+123047  CIA. PISQUERA DE CHI    COLLARIN MISTRAL NOB            0            0       20.000      486.000            0            0
+123053  ECOTEC  S.A.            SUAVIZANTE LIQUIDO V            0            0       34.000      850.000       34.000      850.000
+123054  ECOTEC  S.A.            LIMPIAPISOS LAVANDA             0            0       16.000      318.400       16.000      318.400
+123055  ECOTEC  S.A.            LAVALOZAS VALOR 2 LT            0            0       54.000    1.074.600            0            0
+123056  ECOTEC  S.A.            DETERGENTE LIQUIDO V            0            0       33.290      662.471       33.290      662.471
+123057  ECOTEC  S.A.            LIMPIAPISOS PRIMAVER            0            0       14.000      278.600       14.000      278.600
+123058  ECOTEC  S.A.            SUAVIZANTE LIQUIDO V            0            0       16.000      312.000       16.000      312.000
+123065  COPAPEL LTDA.           214-282 SIN IMP.(3,7            0            0      624.540      880.601      624.540      880.601
+123066  COPAPEL LTDA.           SIN IMPRESION-COD.01            0            0      189.000      657.720      189.000      657.720
+123068  WATTS  S.A.             FTE POTE PAMPERITA L            0            0       52.000      485.160       52.000      485.160
+123069  WATTS  S.A.             POTE CALO 1 KILO           52.500      391.125            0            0       52.500      391.125
+123070  WATTS  S.A.             TAPA CALO 1 KILO                0            0       55.000      765.600       55.000      765.600
+123073  WATTS  S.A.             REV POTE PAMPERITA L            0            0       60.000      559.800       60.000      559.800
+123076  COPAPEL LTDA.           SIN IMPRESION                   0            0      110.000      149.600      110.000      149.600
+123078  EMPRESAS DEMARIA S.A    REV LMUEBLES LAVANDA            0            0       36.000      540.000       36.000      540.000
+123084  COPAPEL LTDA.           3*5 POLITRANSFER                0            0      102.000      192.780      102.000      192.780
+123085  COOP. AGRIC. PISQUER    COLLARIN SENSUS DEMI            0            0       19.000      589.000       19.000      589.000
+123089  COEMBAL CHILE S.A.      TAPA MARGARINA NEXT             0            0      144.000    1.346.400            0            0
+123092  OLIVOS RUTA DEL SOL     FTE CLASSIC PORTUGUE            0            0       32.500    1.105.000       32.500    1.105.000
+123093  OLIVOS RUTA DEL SOL     REV CLASSIC PORTUGUE            0            0       32.500      715.000       32.500      715.000
+123100  EMPRESAS CAROZZI S.A    IREX FECHA VENCIMIEN            0            0    1.010.000      303.000          850      255.000
+123101  FABRICA DE ENVASES F    FTE MIX (305016)                0            0      496.000    1.830.240      496.000    1.830.240
+123102  FABRICA DE ENVASES F    REV MIX (305016)                0            0      512.000    1.889.280      512.000    1.889.280
+123113  CIA. PISQUERA DE CHI    COLLARIN MISTRAL ICE            0            0       54.000      264.600       54.000      264.600
+123120  COPAPEL LTDA.           PB-2 SIN IMPRESION              0            0      400.000      111.600          400      111.600
+123151  SOUTHERN BREWING COM    COLLARIN PILSNER 330            0            0      180.000      891.000      180.000      891.000
+123165  COPAPEL LTDA.           3*5 POLITRANSFER                0            0      126.000      238.140      126.000      238.140
+123166  COPAPEL LTDA.           ET.3*3 COD.20109984             0            0      204.000      153.000      204.000      153.000
+123167  COPAPEL LTDA.           SIN IMPRESION COD:20            0            0      225.000      128.250      225.000      128.250
+123168  COPAPEL LTDA.           ET.3,5*10 TRANSF.RI/            0            0      150.000      369.000      150.000      369.000P
