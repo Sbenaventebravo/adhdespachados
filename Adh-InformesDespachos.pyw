@@ -6,6 +6,11 @@ import sys
 import distribuidos, datetime
 from pathlib import Path
 from win_unc import UncDirectory, UncDirectoryConnection
+def MostrarMensaje(e):
+    msjBox = QMessageBox()
+    msjBox.setWindowTitle("Mensaje")
+    msjBox.setText(e)
+    msjBox.exec_()
 def validacionArchivo(conexion,nombreArchivo):
     p = Path(conexion.get_path())
     p = p / nombreArchivo
@@ -109,21 +114,25 @@ class MyTableModel(QAbstractTableModel):
         return QVariant()
 class vInforme1(QMainWindow):
     def __init__(self, parent=None):
-        QWidget.__init__(self, parent)
-        self.ui = distribuidos.Ui_MainWindow()
-        self.ui.setupUi(self)
-        self.setWindowTitle("Adh-Informes de Despacho")
-        self.diccionarioMeses = {"ENERO": '01',"FEBRERO":'02',"MARZO":'03',"ABRIL":'04',"MAYO":'05',
-                                 "JUNIO":'06',"JULIO":'07',"AGOSTO":'08',"SEPTIEMBRE":'09',
-                                 "OCTUBRE":'10',"NOVIEMBRE":'11',"DICIEMBRE":'12'}
-        pixmap = QPixmap('./2.jpg')
-        self.ui.lblLogo.setPixmap(pixmap.scaled(250,100,Qt.KeepAspectRatio))
-        self.ui.lblLogo2.setPixmap(pixmap.scaled(250,100, Qt.KeepAspectRatio))
-        self.cargarCmbMeses()
-        self.estadocero()
-        self.ui.lblFechaHoy.setText("{0}/{1}/{2}".format(datetime.date.today().day,datetime.date.today().month,
-                                                         datetime.date.today().year))
-        QObject.connect(self.ui.cmbMeses, SIGNAL("currentIndexChanged(int)"), self.cmbMeses_click)
+        try:
+            QWidget.__init__(self, parent)
+            self.ui = distribuidos.Ui_MainWindow()
+            self.ui.setupUi(self)
+            self.setWindowTitle("Adh-Informes de Despacho")
+            self.diccionarioMeses = {"ENERO": '01',"FEBRERO":'02',"MARZO":'03',"ABRIL":'04',"MAYO":'05',
+                                     "JUNIO":'06',"JULIO":'07',"AGOSTO":'08',"SEPTIEMBRE":'09',
+                                     "OCTUBRE":'10',"NOVIEMBRE":'11',"DICIEMBRE":'12'}
+            pixmap = QPixmap('./2.jpg')
+            self.ui.lblLogo.setPixmap(pixmap.scaled(250,100,Qt.KeepAspectRatio))
+            self.ui.lblLogo2.setPixmap(pixmap.scaled(250,100, Qt.KeepAspectRatio))
+            self.cargarCmbMeses()
+            self.estadocero()
+            self.ui.lblFechaHoy.setText(datetime.date.today().strftime("%d/%m/%Y"))
+
+            QObject.connect(self.ui.cmbMeses, SIGNAL("currentIndexChanged(int)"), self.cmbMeses_click)
+        except Exception as e:
+            MostrarMensaje(e.message)
+            sys.exit(1)
     def cargarCmbMeses(self, ):
         self.ui.cmbMeses.clear()
         self.ui.cmbMeses.addItem("--Seleccione el mes que quiere consultar--")
