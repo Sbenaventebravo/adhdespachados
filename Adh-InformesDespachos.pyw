@@ -6,6 +6,7 @@ import sys
 import distribuidos, datetime
 from pathlib import Path
 from win_unc import UncDirectory, UncDirectoryConnection
+import winshell
 def MostrarMensaje(e):
     msjBox = QMessageBox()
     msjBox.setWindowTitle("Mensaje")
@@ -19,6 +20,12 @@ def validacionArchivo(conexion,nombreArchivo):
         return str(p)
     else:
         raise Exception("El archivo {0}, no existe en la carpeta de archivos".format(nombreArchivo))
+def formatoAtributoInforme(cadena,largo):
+    listaCandena= list(cadena)
+    for i in range(largo - len(cadena)):
+        listaCandena.append(" ")
+    return "".join(listaCandena)
+
 class lineaDistribuidos():
     def __init__(self):
         self.__pedido = ""
@@ -28,6 +35,10 @@ class lineaDistribuidos():
         self.__valorizadaAnteriores = ""
         self.__cantDespachada = ""
         self.__valorizadaDespachada = ""
+    def getCantMeseAnteriores(self):
+        return __cantMesesAnteriores
+    def getCantDespachada(self):
+        return __cantDespachada
 
     def archivoALista(self,archivo):
         try:
@@ -55,14 +66,16 @@ class lineaDistribuidos():
                     self.__valorizadaDespachada = linea[109: 119].strip()
                     registro.append(self.__valorizadaDespachada)
                     listaRegistros.append(registro)
-            lecturaArchivo.close()
-            conn.disconnect()  # se desconecta de la carpeta
+
             return listaRegistros
         except Exception as e:
             raise Exception("Error al conectarse con la carpeta compartida,"
                             "\nse debe comprobar que no hay cambios de configuracion en rutas\n"
                             "   y si el usuario se encuentra conectado a la red."
                             "\nSi el problema persiste conctarse con el programador:\ns.benaventebravo@gmail.com")
+        else:
+            lecturaArchivo.close()
+            conn.disconnect()  # se desconecta de la carpeta
     def __str__(self):
         return "{0} {1} {2} {3} {4} {5} {6} {7} {8}".format(self.__pedido,
                                                             self.__nomCliente,
@@ -79,6 +92,7 @@ class lineaDistribuidos():
             listacantidades.append(int(reg[tipo].replace('.','')))
 
         return sum(listacantidades)
+
 class MyTableModel(QAbstractTableModel):
     def __init__(self, datain, headerdata, parent=None):
         """
@@ -130,6 +144,7 @@ class vInforme1(QMainWindow):
             self.ui.lblFechaHoy.setText(datetime.date.today().strftime("%d/%m/%Y"))
 
             QObject.connect(self.ui.cmbMeses, SIGNAL("currentIndexChanged(int)"), self.cmbMeses_click)
+            QObject.connect(self.ui.pbBalance, SIGNAL("clicked()"), self.balanceMensual)
         except Exception as e:
             MostrarMensaje(e.message)
             sys.exit(1)
@@ -148,36 +163,38 @@ class vInforme1(QMainWindow):
             for k, v in self.diccionarioMeses.items():
                 if (int(v) == self.listaReferencias[i]):
                     self.ui.cmbMeses.addItem(k)
-
     def cmbMeses_click(self):
-        indice = -1
-        mes = self.ui.cmbMeses.currentText()
-        if str(mes).find("--S") == -1:
-            for k, v in self.diccionarioMeses.items():
-                if k == mes:
-                    indice = v
-            my_array = lineaDistribuidos().archivoALista("proy"+indice+".txt")
-            headerData = ["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad de Productos",
-                          "Valorizacion de Productos", "Cantidad Despachada", " Valorizacion de Despachos"]
-            tablemodel = MyTableModel(my_array, headerData, self)
-            self.ui.tableView.setModel(tablemodel)
-            self.ui.tableView.setColumnWidth(0, 100)
-            self.ui.tableView.setColumnWidth(1, 180)
-            self.ui.tableView.setColumnWidth(2, 180)
-            self.ui.tableView.setColumnWidth(3, 180)
-            self.ui.tableView.setColumnWidth(4, 180)
-            self.ui.tableView.setColumnWidth(5, 180)
-            self.ui.tableView.setColumnWidth(6, 180)
-            self.ui.tableView.setColumnWidth(7, 180)
-            self.ui.tableView.setColumnWidth(8, 180)
-            self.ui.lblCantProd.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 3)).replace(',', '.'))
-            self.ui.lblCantDesp.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 5)).replace(',', '.'))
-            self.ui.lblProdVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 4)).replace(',', '.'))
-            self.ui.lblDespVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 6)).replace(',', '.'))
-            self.ui.tableView.showRow(0)
-        else:
-            self.estadocero()
-
+        try:
+            indice = -1
+            my_array = None
+            mes = self.ui.cmbMeses.currentText()
+            if str(mes).find("--S") == -1:
+                for k, v in self.diccionarioMeses.items():
+                    if k == mes:
+                        indice = v
+                headerData = ["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad de Productos",
+                              "Valorizacion de Productos", "Cantidad Despachada", " Valorizacion de Despachos"]
+                my_array = lineaDistribuidos().archivoALista("proy" + indice + ".txt")
+                tablemodel = MyTableModel(my_array, headerData, self)
+                self.ui.tableView.setModel(tablemodel)
+                self.ui.tableView.setColumnWidth(0, 100)
+                self.ui.tableView.setColumnWidth(1, 180)
+                self.ui.tableView.setColumnWidth(2, 180)
+                self.ui.tableView.setColumnWidth(3, 180)
+                self.ui.tableView.setColumnWidth(4, 180)
+                self.ui.tableView.setColumnWidth(5, 180)
+                self.ui.tableView.setColumnWidth(6, 180)
+                self.ui.tableView.setColumnWidth(7, 180)
+                self.ui.tableView.setColumnWidth(8, 180)
+                self.ui.lblCantProd.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 3)).replace(',', '.'))
+                self.ui.lblCantDesp.setText('{:,}'.format(lineaDistribuidos().calcularTotal(my_array, 5)).replace(',', '.'))
+                self.ui.lblProdVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 4)).replace(',', '.'))
+                self.ui.lblDespVal.setText('${:,}'.format(lineaDistribuidos().calcularTotal(my_array, 6)).replace(',', '.'))
+                self.ui.tableView.showRow(0)
+            else:
+                self.estadocero()
+        except Exception as e:
+            MostrarMensaje(str(e.message))
     def estadocero(self):
         my_array = [["", "", "", "", "", "", ""]]
         headerData =["Pedido", "Nombre Cliente", "Nombre Etiqueta", "Cantidad de Productos",
@@ -198,6 +215,62 @@ class vInforme1(QMainWindow):
         self.ui.lblCantDesp.setText('0')
         self.ui.lblProdVal.setText('$0')
         self.ui.lblDespVal.setText('$0')
+
+    def listaAtrasados(self,listaDatos):
+        listaA = list()
+        if listaDatos is None:
+            raise Exception("No existen pedidos fuera de plazo")
+        for reg in listaDatos:
+            if (int(reg[3].replace('.', '')) - int(reg[5].replace('.', ''))) > 0:
+                listaA.append(reg)
+        return listaA
+
+    def balanceMensual(self):
+        try:
+            hoy = datetime.date.today()
+            anterior = hoy.month - 1
+            mes = ""
+            if anterior == 0:
+                anterior = 12
+            for k,v in self.diccionarioMeses.items():
+                if int(v) == anterior:
+                    mes = k
+                    break
+            my_array = lineaDistribuidos().archivoALista("proy" + v + ".txt")
+            atrasados = self.listaAtrasados(my_array)
+            nuevoArchivo = open(str(winshell.desktop()) + "/" + "Balance_{0}".format(mes) + ".txt", 'w')
+            nuevoArchivo.write("Balance no despachados {0}\n\n".format(mes).upper())
+            nuevoArchivo.write("{0}{1}{2}{3}{4}{5}{6}\n".format(formatoAtributoInforme("Pedido", 8),
+                                                                formatoAtributoInforme("Nombre Cliente", 30),
+                                                                formatoAtributoInforme("Nombre Etiqueta", 30),
+                                                                formatoAtributoInforme("Cant. Productos", 30),
+                                                                formatoAtributoInforme("Val. Productos", 30),
+                                                                formatoAtributoInforme("Cant. Despacho", 30),
+                                                                formatoAtributoInforme("Val. Despacho", 30)).upper())
+            for reg in atrasados:
+                nuevoArchivo.write("{0}{1}{2}{3}{4}{5}{6}\n".format(formatoAtributoInforme(reg[0], 8),
+                                                         formatoAtributoInforme(reg[1], 30),
+                                                         formatoAtributoInforme(reg[2], 30),
+                                                         formatoAtributoInforme(reg[3], 30),
+                                                         formatoAtributoInforme(reg[4], 30),
+                                                         formatoAtributoInforme(reg[5], 30),
+                                                         formatoAtributoInforme(reg[6], 30)))
+            cantTotalProd ="{:,}".format(lineaDistribuidos().calcularTotal(atrasados, 3)).replace(',', '.')
+            nuevoArchivo.write(
+                "\nCantidad Total Productos:{0}".format(formatoAtributoInforme(cantTotalProd, 25)))
+            cantTotalDesp = "{:,}".format(lineaDistribuidos().calcularTotal(atrasados, 5)).replace(',', '.')
+            nuevoArchivo.write(
+                "Cantidad Total Despachos:{0}".format(formatoAtributoInforme(cantTotalDesp, 20)))
+            valTotalProd = "{:,}".format(lineaDistribuidos().calcularTotal(atrasados, 4)).replace(',', '.')
+            nuevoArchivo.write(
+                "\nValorizacion total Productos:${0}".format(formatoAtributoInforme(valTotalProd, 20)))
+            valTotalDesp = "{:,}".format(lineaDistribuidos().calcularTotal(atrasados, 6)).replace(',', '.')
+            nuevoArchivo.write(
+                "Valorizacion total despachos:${0}".format(formatoAtributoInforme(valTotalDesp, 20)))
+        except Exception as e:
+           MostrarMensaje("No se pudo generar el archivo")
+        else:
+            MostrarMensaje("Archivo generado con exito")
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWindow = vInforme1()
